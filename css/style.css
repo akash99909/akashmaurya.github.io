@@ -1881,6 +1881,7 @@ footer.footer.light {
 /*=================================================================*/
 /*                      DARK MODE                              
 /*=================================================================*/
+@media(prefers-colur-scheme:dark){
 body.dark {
   color: #FFF;
   background-color: #353353;
@@ -1942,6 +1943,7 @@ body.dark .blog-page-section .blog-pagination ul li {
 }
 body.dark .blog-page-section .blog-single {
   background-color: #302f4e !important;
+}
 }
 
 /*=================================================================*/
